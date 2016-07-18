@@ -13,10 +13,13 @@ module.exports = {
     // S3 Get Log module
     GetLog: require('./lib/s3-getlog.js'),
 
-    // ElasticSearch module
+    // S3 Put module
+    PutS3: require('./lib/s3-put.js'),
+
+    // ElasticSearch Send module
     SendToES: require('./lib/es-send.js'),
 
-    // S3 Put module
-    PutS3: require('./lib/s3-put.js')
+    // ElasticSearch Index module
+    ESIndex: require('./lib/es-index.js')
 
 };
